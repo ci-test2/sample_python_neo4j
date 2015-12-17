@@ -7,6 +7,8 @@ python:
 services:
   - neo4j
 
+build_image: drydock/u14pytall:tip
+
 install:
   - pip install -r requirements.txt
 
