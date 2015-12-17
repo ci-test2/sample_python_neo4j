@@ -6,6 +6,8 @@ python:
 # Mongo binds to 127.0.0.1 by default
 services:
   - neo4j
+  
+build_image: drydock/u12pytall:tip
 
 install:
   - pip install -r requirements.txt
