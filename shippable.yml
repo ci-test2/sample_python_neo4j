@@ -23,3 +23,4 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml test.py
   
 archive: true
+cache: true
